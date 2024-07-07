@@ -13,7 +13,7 @@ app.get('/', (req, res) => {
   Beyond the world of coding, I'm a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. As a proud felintrovert, I cherish my moments of solitude with my feline companions, finding inspiration and creativity in these quiet times.
   I'm always eager to explore new ideas and enhance my skill set, continuously pushing the boundaries of what's possible with Flutter. Let's connect and build something amazing together!`;
   var req= {
-    'data':data,
+    'data':'Hi helo',
   } 
   res.send(req);
 });
