@@ -9,19 +9,91 @@ const port = process.env.PORT || 3000;
 app.use(cors());
 
 app.get('/', (req, res) => {
-  var data =`Hello! I'm a passionate Flutter developer with 3.5 years of experience crafting seamless, cross-platform applications that delight users and solve real-world problems. My journey in software development is driven by a relentless curiosity and a commitment to learning new technologies and methodologies.
+
+  var body = {
+    'data': 'Hi helo',
+  }
+  res.send(body);
+});
+
+app.get('/about-me', (req, res) => {
+  var data = `Hello! I'm a passionate Flutter developer with 3.5 years of experience crafting seamless, cross-platform applications that delight users and solve real-world problems. My journey in software development is driven by a relentless curiosity and a commitment to learning new technologies and methodologies.
   Beyond the world of coding, I'm a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. As a proud felintrovert, I cherish my moments of solitude with my feline companions, finding inspiration and creativity in these quiet times.
   I'm always eager to explore new ideas and enhance my skill set, continuously pushing the boundaries of what's possible with Flutter. Let's connect and build something amazing together!`;
-  var req= {
-    'data':'Hi helo',
-  } 
-  res.send(req);
+  var body = {
+    'data': data
+  }
+  res.send(body);
 });
 
-app.get('/contact', (req, res) => {
-  res.send(`If you'd like to get in touch, please reach out via email at [your-email@example.com] or connect with me on LinkedIn.`);
+app.get('/contact-me', (req, res) => {
+  var data = [
+    {
+      'title': 'Address',
+      'details': "  Prasadam, Nadama, Tripunithura, \n  Ernakulam, Kerala, India",
+      'icon_name': "home",
+      'index': 0,
+      'type': "location",
+      'link': "https://www.google.com/maps/search/?api=1&query=9.9482885,76.3480163",
+    },
+    {
+      'title': 'Mobile',
+      'details': "+918086028340",
+      'icon_name': "call",
+      'index': 1,
+      'type': "mobile",
+      'link': "https://web.whatsapp.com/send?phone=918086028340, whatsapp://send?phone=+918086028340",
+    },
+    {
+      'title': 'Email',
+      'details': "sivaprasadnk123@gmail.com",
+      'icon_name': "email",
+      'index': 2,
+      'type': "email",
+      'link': "mailto:sivaprasadnk123@gmail.com",
+    },
+  ];
+  var body = {
+    'data': data
+  }
+  res.send(body);
 });
+
+app.get('/projects', (req, res) => {
+  var data = [
+    {
+      'name': 'SP Quiz App',
+      'tech_stack': ["Flutter (Android)", "Firebase"],
+      'desc': ['Quiz App with light / dark mode \nwith various  color themes.', 'Mark as Favorite option', 'Provider State-Management',],
+      'index': 0,
+      'url': "https://play.google.com/store/apps/details?id=com.sptpra.spquiz",
+      'is_web': false,
+    },
+    {
+      'name': 'SP Quotes App',
+      'tech_stack': ['Flutter (Android)'],
+      'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State Management'],
+      'index': 1,
+      'url': "https://play.google.com/store/apps/details?id=com.sptpra.spquotes",
+      'is_web': false,
+    },
+    {
+      'name': 'Portfolio WebApp',
+      'tech_stack': ['Flutter (Web)'],
+      'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State Management', 'Clean Architecture'],
+      'index': 2,
+      'url': "https://sivaprasadnk.dev/",
+      'is_web': true,
+    },
+  ];
+  var body = {
+    'data': data
+  }
+  res.send(body);
+});
+
+
 
 app.listen(port, () => {
-  console.log(`Server is running at http://localhost:${port}`);
+  console.log(`Server is running at Port: ${port}`);
 });
