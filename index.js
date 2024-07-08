@@ -79,7 +79,7 @@ app.get('/projects', (req, res) => {
     },
     {
       'name': 'Portfolio WebApp',
-      'tech_stack': ['Flutter (Web)'],
+      'tech_stack': ['Flutter (Web)', 'NodeJs'],
       'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State Management', 'Clean Architecture'],
       'index': 2,
       'url': "https://sivaprasadnk.dev/",
