@@ -93,6 +93,40 @@ app.get('/projects', (req, res) => {
 });
 
 
+app.get('/experience', (req, res) => {
+  var data = [
+    {
+      'title': 'Consultant',
+      'details': ['Flutter Team Lead', 'App Flavoring', 'Offline caching using Hive Db', 'Push Notifications'],
+      'order': 0,
+      'org': "Invenics Services India Pvt Ltd",
+      'start_date': '05/2023',
+      'end_date': '07/2024',
+    },
+    {
+      'title': 'Flutter Developer',
+      'details': ['Flutter Team Lead', 'RESTful api integration', 'Firebase SDK', 'Push Notifications'],
+      'order': 1,
+      'org': "Indbytes Technologies Pvt Ltd",
+      'start_date': '12/2020',
+      'end_date': '05/2023',
+    },
+    {
+      'title': 'Programmer Trainee',
+      'details': ['Java / Postgres', 'Client Visit'],
+      'order': 2,
+      'org': "Bayasys Infotech Pvt Ltd",
+      'start_date': '07/2019',
+      'end_date': '09/2020',
+    }
+  ];
+  var body = {
+    'data': data
+  }
+  res.send(body);
+});
+
+
 
 app.listen(port, () => {
   console.log(`Server is running at Port: ${port}`);
