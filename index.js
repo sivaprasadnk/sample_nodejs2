@@ -30,7 +30,7 @@ app.get('/contact-me', (req, res) => {
   var data = [
     {
       'title': 'Address',
-      'details': "  Prasadam, Nadama, Tripunithura, \n  Ernakulam, Kerala, India",
+      'details': "Prasadam, Nadama, Tripunithura, \nErnakulam, Kerala, India",
       'icon_name': "home",
       'index': 0,
       'type': "location",
