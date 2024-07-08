@@ -63,7 +63,7 @@ app.get('/projects', (req, res) => {
   var data = [
     {
       'name': 'SP Quiz App',
-      'tech_stack': ["Flutter (Android)", "Firebase"],
+      'tech_stack': ["Flutter ( Android )", "Firebase"],
       'desc': ['Quiz App with light / dark mode \nwith various  color themes.', 'Mark as Favorite option', 'Provider State-Management',],
       'index': 0,
       'url': "https://play.google.com/store/apps/details?id=com.sptpra.spquiz",
@@ -71,7 +71,7 @@ app.get('/projects', (req, res) => {
     },
     {
       'name': 'SP Quotes App',
-      'tech_stack': ['Flutter (Android)'],
+      'tech_stack': ['Flutter ( Android )'],
       'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State Management'],
       'index': 1,
       'url': "https://play.google.com/store/apps/details?id=com.sptpra.spquotes",
@@ -79,7 +79,7 @@ app.get('/projects', (req, res) => {
     },
     {
       'name': 'Portfolio WebApp',
-      'tech_stack': ['Flutter (Web)', 'NodeJs'],
+      'tech_stack': ['Flutter ( Web )', 'NodeJs'],
       'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State Management', 'Clean Architecture'],
       'index': 2,
       'url': "https://sivaprasadnk.dev/",
