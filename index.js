@@ -98,7 +98,7 @@ app.get('/experience', (req, res) => {
     {
       'title': 'Consultant',
       'details': ['Flutter Team Lead', 'App Flavoring', 'Offline caching using Hive Db', 'Push Notifications'],
-      'order': 0,
+      'order': 2,
       'org': "Invenics Services India Pvt Ltd",
       'start_date': '05/2023',
       'end_date': '07/2024',
@@ -114,7 +114,7 @@ app.get('/experience', (req, res) => {
     {
       'title': 'Programmer Trainee',
       'details': ['Java / Postgres', 'Client Visit'],
-      'order': 2,
+      'order': 0,
       'org': "Bayasys Infotech Pvt Ltd",
       'start_date': '07/2019',
       'end_date': '09/2020',
