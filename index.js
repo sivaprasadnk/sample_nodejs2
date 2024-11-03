@@ -147,7 +147,7 @@ app.get('/my-skills', (req, res) => {
     {
       'title': 'Firebase',
       'details': "Firebase",
-      'icon_name': "firebase",
+      'icon_name': "firebase2",
       'index': 2,
       'type': "",
       'link': "",
@@ -156,7 +156,7 @@ app.get('/my-skills', (req, res) => {
       'title': 'HTML',
       'details': "Html",
       'icon_name': "html",
-      'index': 2,
+      'index': 0,
       'type': "",
       'link': "",
     },
