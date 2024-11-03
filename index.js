@@ -145,13 +145,22 @@ app.get('/my-skills', (req, res) => {
       'link': "",
     },
     {
-      'title': 'HTML5',
-      'details': "HTML",
-      'icon_name': "html",
-      'index': 0,
+      'title': 'Firebase',
+      'details': "Firebase",
+      'icon_name': "firebase",
+      'index': 2,
       'type': "",
       'link': "",
     },
+    {
+      'title': 'HTML',
+      'details': "Html",
+      'icon_name': "html",
+      'index': 2,
+      'type': "",
+      'link': "",
+    },
+
     {
       'title': 'CSS3',
       'details': "CSS",
