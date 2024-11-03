@@ -162,7 +162,7 @@ app.get('/my-skills', (req, res) => {
     },
 
     {
-      'title': 'CSS3',
+      'title': 'CSS',
       'details': "CSS",
       'icon_name': "css",
       'index': 2,
