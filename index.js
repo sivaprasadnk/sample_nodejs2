@@ -126,6 +126,47 @@ app.get('/experience', (req, res) => {
   res.send(body);
 });
 
+app.get('/my-skills', (req, res) => {
+  var data = [
+    {
+      'title': 'Dart',
+      'details': "Dart",
+      'icon_name': "dart",
+      'index': 0,
+      'type': "",
+      'link': "",
+    },
+    {
+      'title': 'Flutter',
+      'details': "Flutter",
+      'icon_name': "flutter",
+      'index': 1,
+      'type': "",
+      'link': "",
+    },
+    {
+      'title': 'HTML5',
+      'details': "HTML",
+      'icon_name': "html",
+      'index': 2,
+      'type': "",
+      'link': "",
+    },
+    {
+      'title': 'CSS3',
+      'details': "CSS",
+      'icon_name': "css",
+      'index': 2,
+      'type': "",
+      'link': "",
+    }
+  ];
+  var body = {
+    'data': data
+  }
+  res.send(body);
+});
+
 
 
 app.listen(port, () => {
