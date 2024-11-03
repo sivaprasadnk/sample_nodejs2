@@ -148,7 +148,7 @@ app.get('/my-skills', (req, res) => {
       'title': 'HTML5',
       'details': "HTML",
       'icon_name': "html",
-      'index': 2,
+      'index': 0,
       'type': "",
       'link': "",
     },
