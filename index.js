@@ -17,9 +17,20 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about-me', (req, res) => {
-  var data = `Hello! I'm a passionate Flutter developer with 3.9 years of experience crafting seamless, cross-platform applications that delight users and solve real-world problems. My journey in software development is driven by a relentless curiosity and a commitment to learning new technologies and methodologies.
-  Beyond the world of coding, I'm a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. As a proud felintrovert, I cherish my moments of solitude with my feline companions, finding inspiration and creativity in these quiet times.
-  I'm always eager to explore new ideas and enhance my skill set, continuously pushing the boundaries of what's possible with Flutter. Let's connect and build something amazing together!`;
+  // var data = `Hello! I'm a passionate Flutter developer with 3.9 years of experience crafting seamless, cross-platform applications that delight users and solve real-world problems. My journey in software development is driven by a relentless curiosity and a commitment to learning new technologies and methodologies.
+  // Beyond the world of coding, I'm a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. As a proud felintrovert, I cherish my moments of solitude with my feline companions, finding inspiration and creativity in these quiet times.
+  // I'm always eager to explore new ideas and enhance my skill set, continuously pushing the boundaries of what's possible with Flutter. Let's connect and build something amazing together!`;
+
+  var data = `Hello! I'm a passionate Flutter developer with 3.9 years of experience crafting seamless, cross-platform applications that delight users and solve real-world problems. I actively contribute to the Flutter community by creating and sharing Flutter packages on pub.dev, fostering innovation and collaboration.
+
+My journey in software development is driven by a relentless curiosity and a commitment to learning new technologies and methodologies. Currently, I'm expanding my horizons by learning web development with HTML, CSS, and JavaScript to further enhance my skill set.
+
+Beyond the world of coding, I'm a fitness enthusiast dedicated to maintaining a balanced and healthy lifestyle. As a proud felintrovert, I cherish my moments of solitude with my feline companions, finding inspiration and creativity in these quiet times.
+
+I'm always eager to explore new ideas, continuously push the boundaries of technology, and create innovative solutions.
+
+Let's connect and build something amazing together!`;
+
   var body = {
     'data': data
   }
