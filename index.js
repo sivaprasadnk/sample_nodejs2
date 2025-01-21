@@ -101,7 +101,7 @@ app.get('/projects', (req, res) => {
       'tech_stack': ['Flutter ( Web )', 'NodeJs'],
       'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State Management', 'Clean Architecture'],
       'index': 2,
-      'web_url': "https://play.google.com/store/apps/details?id=com.spverse.moviezapp",
+      'web_url': "https://sivaprasadnk.dev",
       'playstore_url': "",
       "is_active": "Y",
     },
