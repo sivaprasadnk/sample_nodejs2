@@ -112,7 +112,7 @@ app.get('/projects', (req, res) => {
       'index': 3,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.spverse.moviezapp",
       'web_url': "https://moviezapp-spverse.web.app/",
-      "is_active": "N",
+      "is_active": "Y",
     },
   ];
   var body = {
