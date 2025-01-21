@@ -114,6 +114,15 @@ app.get('/projects', (req, res) => {
       'web_url': "https://moviezapp-spverse.web.app/",
       "is_active": "Y",
     },
+    {
+      'name': 'PDF Creator',
+      'tech_stack': ['Flutter ( Android )'],
+      'desc': ['Create PDF files from single / list of texts / images', 'View Created files', 'Clean & minimal UI'],
+      'index': 4,
+      'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.pdf_creator",
+      'web_url': "",
+      "is_active": "Y",
+    },
   ];
   var body = {
     'data': data
