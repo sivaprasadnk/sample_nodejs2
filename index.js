@@ -108,7 +108,7 @@ app.get('/projects', (req, res) => {
     {
       'name': 'MoviezApp',
       'tech_stack': ['Flutter ( Android, Web )'],
-      'desc': ['Movies listing app using TMDB api', 'Google SignIn authentication', "Guest login", 'Light / Dark theme', 'Provider State Management', 'MVC Architecture'],
+      'desc': ['Movies listing app using TMDB api', 'Google SignIn & Guest Login', 'Light / Dark theme', 'Provider State Management', 'MVC Architecture'],
       'index': 3,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.spverse.moviezapp",
       'web_url': "https://moviezapp-spverse.web.app/",
