@@ -90,7 +90,7 @@ app.get('/projects', (req, res) => {
     {
       'name': 'SP Quotes App',
       'tech_stack': ['Flutter ( Android )'],
-      'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State Management'],
+      'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State-Management'],
       'index': 1,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.spquotes",
       'web_url': "",
@@ -99,7 +99,7 @@ app.get('/projects', (req, res) => {
     {
       'name': 'Portfolio WebApp',
       'tech_stack': ['Flutter ( Web )', 'NodeJs'],
-      'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State Management', 'Clean Architecture'],
+      'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme with various color themes', 'Bloc State-Management', 'Clean Architecture'],
       'index': 2,
       'web_url': "https://sivaprasadnk.dev",
       'playstore_url': "",
@@ -108,10 +108,19 @@ app.get('/projects', (req, res) => {
     {
       'name': 'MoviezApp',
       'tech_stack': ['Flutter ( Android, Web )'],
-      'desc': ['Movies listing app using TMDB api', 'Google SignIn & Guest Login', 'Light / Dark theme', 'Provider State Management', 'MVC Architecture'],
+      'desc': ['Movies listing app using TMDB api', 'Google SignIn & Guest Login', 'Light / Dark theme', 'Provider State-Management', 'MVC Architecture'],
       'index': 3,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.spverse.moviezapp",
       'web_url': "https://moviezapp-spverse.web.app/",
+      "is_active": "Y",
+    },
+    {
+      'name': 'Fitness in Thoughts',
+      'tech_stack': ['Flutter ( Android, Web )', 'NodeJs'],
+      'desc': ['Personal blogging app on Fitness', 'Cubit State-Management', 'Get-It dependency injection'],
+      'index': 5,
+      'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.fitness_thoughts",
+      'web_url': "https://sivaprasadnk.dev/fitnessInThoughts/",
       "is_active": "Y",
     },
     {
