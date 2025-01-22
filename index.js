@@ -99,7 +99,7 @@ app.get('/projects', (req, res) => {
     {
       'name': 'Portfolio WebApp',
       'tech_stack': ['Flutter ( Web )', 'NodeJs'],
-      'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme with various color themes', 'Bloc State-Management', 'Clean Architecture'],
+      'desc': ['Personal portfolio website', 'Responsive design for every screensize', 'Light / Dark theme', 'Bloc State-Management', 'Clean Architecture'],
       'index': 2,
       'web_url': "https://sivaprasadnk.dev",
       'playstore_url': "",
