@@ -11,7 +11,7 @@ app.use(cors());
 app.get('/', (req, res) => {
 
   var body = {
-    'data': 'Hi helo',
+    'data': 'Hi 🐈',
   }
   res.send(body);
 });
@@ -116,7 +116,7 @@ app.get('/projects', (req, res) => {
     },
     {
       'name': 'Fitness in Thoughts',
-      'tech_stack': ['Flutter ( Android, Web )', 'NodeJs'],
+      'tech_stack': ['Flutter ( Android, Web )', 'NodeJs', 'Supabase'],
       'desc': ['Personal blogging app on Fitness', 'Cubit State-Management', 'Get-It dependency injection'],
       'index': 5,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.fitness_thoughts",
