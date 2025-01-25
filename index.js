@@ -120,7 +120,8 @@ app.get('/projects', (req, res) => {
       'desc': ['Personal blogging app on Fitness', 'Cubit State-Management', 'Get-It dependency injection'],
       'index': 5,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.fitness_thoughts",
-      'web_url': "https://sivaprasadnk.dev/fitnessInThoughts/",
+      // 'web_url': "https://sivaprasadnk.dev/fitnessInThoughts/",
+      'web_url': "https://fitness_thoughts.codemagic.app/",
       "is_active": "Y",
     },
     {
