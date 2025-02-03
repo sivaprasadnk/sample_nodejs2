@@ -117,7 +117,7 @@ app.get('/projects', (req, res) => {
     {
       'name': 'Fitness in Thoughts',
       // 'tech_stack': ['Flutter ( Android, Web )', 'NodeJs', 'Supabase'],
-      'tech_stack': ['Flutter ( Android, Web )']
+      'tech_stack': ['Flutter ( Android, Web )'],
       'desc': ['Personal blogging app on Fitness', 'Cubit State-Management', 'Get-It dependency injection', 'Backend - NodeJS'],
       'index': 5,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.fitness_thoughts",
