@@ -121,7 +121,8 @@ app.get('/projects', (req, res) => {
       'index': 5,
       'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.fitness_thoughts",
       // 'web_url': "https://sivaprasadnk.dev/fitnessInThoughts/",
-      'web_url': "https://fitness_thoughts.codemagic.app/",
+      // 'web_url': "https://fitness_thoughts.codemagic.app/",
+      'web_url': "https://sivaprasadnk.dev/fitness_thoughts/",
       "is_active": "Y",
     },
     {
