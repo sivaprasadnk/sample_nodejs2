@@ -31,7 +31,7 @@ I'm always eager to explore new ideas, continuously push the boundaries of techn
 
 Let's connect and build something amazing together!`;
 
-  var data1 = `Hello! I'm a Flutter developer with 3.9 years of experience creating cross-platform applications that solve real-world problems. I actively contribute to the Flutter community by developing and sharing packages on pub.dev. Currently, I'm expanding my skill set by learning web development with HTML, CSS, and JavaScript.
+  var data1 = `Hello! I'm a Flutter developer with 3.5+ years of experience creating cross-platform applications that solve real-world problems. I actively contribute to the Flutter community by developing and sharing packages on pub.dev. Currently, I'm expanding my skill set by learning web development with HTML, CSS, and JavaScript.
 
 Beyond coding, I'm a fitness enthusiast who values a healthy lifestyle. As a felintrovert, I find inspiration in quiet moments spent with my feline companions.
 
