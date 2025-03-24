@@ -79,6 +79,18 @@ app.get('/contact-me', (req, res) => {
 app.get('/projects', (req, res) => {
   var data = [
     {
+      'name': 'FiT App',
+      // 'tech_stack': ['Flutter ( Android, Web )', 'NodeJs', 'Supabase'],
+      'tech_stack': ['Android'],
+      'desc': ['Using Jetpack Compose UI', 'Personal blogging app on Fitness', 'Retrofit', 'Backend - NodeJS'],
+      'index': 6,
+      'playstore_url': "https://play.google.com/store/apps/details?id=dev.sivaprasadnk.fitapp",
+      // 'web_url': "https://sivaprasadnk.dev/fitnessInThoughts/",
+      // 'web_url': "https://fitness_thoughts.codemagic.app/",
+      'web_url': "https://sivaprasadnk.dev/fitness_thoughts/",
+      "is_active": "Y",
+    },
+    {
       'name': 'SP Quiz App',
       'tech_stack': ["Flutter ( Android )", "Firebase"],
       'desc': ['Quiz App with light / dark mode \nwith various  color themes.', 'Mark as Favorite option', 'Provider State-Management',],
@@ -87,15 +99,15 @@ app.get('/projects', (req, res) => {
       'web_url': "",
       "is_active": "Y",
     },
-    {
-      'name': 'SP Quotes App',
-      'tech_stack': ['Flutter ( Android )'],
-      'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State-Management'],
-      'index': 1,
-      'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.spquotes",
-      'web_url': "",
-      "is_active": "Y",
-    },
+    // {
+    //   'name': 'SP Quotes App',
+    //   'tech_stack': ['Flutter ( Android )'],
+    //   'desc': ['Quotes listing app with Glassmorphism UI', 'Save to gallery, sharing options', 'Provider State-Management'],
+    //   'index': 1,
+    //   'playstore_url': "https://play.google.com/store/apps/details?id=com.sptpra.spquotes",
+    //   'web_url': "",
+    //   "is_active": "N",
+    // },
     {
       'name': 'Portfolio WebApp',
       'tech_stack': ['Flutter ( Web )', 'NodeJs'],
